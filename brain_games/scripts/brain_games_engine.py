@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from brain_games.cli import name, welcome_user
+from brain_games.cli import name
 import prompt
 import random
 
