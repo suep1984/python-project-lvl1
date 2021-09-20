@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-from brain_games.brain_games_engine import *
+from brain_games.brain_games_engine import question, \
+    answer, comparsion, ok, ROUND_COUNT
 import random
 
 print('Answer "yes" if given number is prime. Otherwise answer "no".')

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-from brain_games.brain_games_engine import *
+from brain_games.brain_games_engine import question, \
+    answer, comparsion, ok, ROUND_COUNT
 import random
 
 print('What number is missing in the progression?')
@@ -10,7 +11,8 @@ def progression():
         begin_progression = random.randint(1, 10)
         end_progression = 1000
         step_progression = random.randint(3, 20)
-        progression = list(range(begin_progression, end_progression, step_progression))[0:10]
+        progression = list(range(begin_progression, end_progression,
+                                 step_progression))[0:10]
         replaceable_item_index = random.randint(0, 9)
         correct_answer = str(progression[replaceable_item_index])
         progression[replaceable_item_index] = str('..')

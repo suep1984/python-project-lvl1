@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-from brain_games.brain_games_engine import *
+from brain_games.brain_games_engine import question, \
+    answer, comparsion, ok, ROUND_COUNT
 import random
 
 print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -20,4 +21,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
